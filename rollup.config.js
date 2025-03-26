@@ -19,7 +19,7 @@ export default {
       sourcemap: true,
     },
   ],
-  external: ['react', 'react-dom', 'tailwindcss'],
+  external: ['react', 'react-dom', 'tailwindcss', "antd"],
   plugins: [
     typescript(),
     commonjs(),
